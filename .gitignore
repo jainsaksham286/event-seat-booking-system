@@ -1,0 +1,22 @@
+# Maven / Java
+target/
+*.class
+*.jar
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.iml
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+application-local.yml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
